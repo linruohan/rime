@@ -5,14 +5,14 @@ patch:
     horizontal: true
     layout:
       border: 0
-      margin_x: 12
-      margin_y: 12
-      hilite_padding: 12
+      margin_x: 3
+      margin_y: 3
+      hilite_padding: 2
       hilite_spacing: 3
-      spacing: 10
-      candidate_spacing: 24
-      round_corner: 0
-    color_scheme: ayaya
+      spacing: 2
+      candidate_spacing: 2
+      round_corner: 10
+    color_scheme: macos_dark
 
   preset_color_schemes:
     ayaya:
@@ -166,8 +166,8 @@ patch:
       font_face: "PingFangSC"                   # 候选词编号字体
       font_point: 16              # 候选文字大小
       label_font_point: 13        # 候选编号大小
-      corner_radius: 5            # 候选条圆角
-      hilited_corner_radius: 5    # 高亮圆角
+      corner_radius: 15            # 候选条圆角
+      hilited_corner_radius: 15    # 高亮圆角
       border_height: 4            # 窗口上下高度
       border_width: 4             # 窗口左右宽度
       border_color_width: 0       # 输入条边框宽度
